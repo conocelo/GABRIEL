@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda Online</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="productos">
+            <div class="producto">
+                <img width="200px" src="https://goldenstoreperu.com/wp-content/uploads/2023/12/22-1.png" alt="Producto 1">
+                <h2>zapatilla air max futura</h2>
+                <p>S/.400</p>
+                <button onclick="agregarAlCarrito('Producto 1', 29.99)">Agregar a la zapatilla</button>
+            </div>
+            <div class="producto">
+                <img width="200px" src="https://home.ripley.com.pe/Attachment/WOP_5/2084298497856/2084298497856-5.jpg" alt="Producto 2">
+                <h2>nike vapor club</h2>
+                <p>$58.99</p>
+                <button onclick="agregarAlCarrito('Producto 2', 49.99)">Agregar a la zapatilla</button>
+            </div>
+            <div class="producto">
+                <img width="200px" src="https://oechsle.vteximg.com.br/arquivos/ids/9346457-1000-1000/imageUrl_2.jpg?v=637916992938700000" alt="Producto 3">
+                <h2>jean recto para hombre</h2>
+                <p>S/.79.99</p>
+                <button onclick="agregarAlCarrito('Producto 3', 59.99)">Agregar al jean</button>
+            </div>
+            <div class="producto">
+                <img width="200px" src="https://oechsle.vteximg.com.br/arquivos/ids/13640251-1000-1000/image-0.jpg?v=638104726598270000" alt="Producto 3">
+                <h2>camisa para hombre</h2>
+                <p>S/.129.99</p>
+                <button onclick="agregarAlCarrito('Producto 3', 59.99)">Agregar a la camisa</button>
+            </div>
+            <div class="producto">
+                <img width="200px" src="https://goldenstoreperu.com/wp-content/uploads/2022/11/1-16.png" alt="Producto 3">
+                <h2>jordan retro 4</h2>
+                <p>S/.399.99</p>
+                <button onclick="agregarAlCarrito('Producto 3', 59.99)">Agregar a las zapatillas</button>
+            </div>
+            
+            
+            
+            <!-- Agrega más productos según sea necesario -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tienda Online. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
